@@ -30,6 +30,11 @@ body{
     border-radius: 0.625rem;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
 }
+@media (max-width: 767px){
+    .card {
+        height: 497px;
+    }
+}
 .card img {
     width: 288px;
     border-radius: 20px;
